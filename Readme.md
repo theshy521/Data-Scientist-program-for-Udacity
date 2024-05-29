@@ -31,4 +31,8 @@ Concat Seattle and Boston data for further analysis
 2. Analyze probalibity distribution of Price
 3. Analyze correlation between numerical columuns and price. And customed AI model to predict price.
 
+# Github blog
+https://theshy521.github.io/
+[Blog](https://theshy521.github.io/)
+
 
