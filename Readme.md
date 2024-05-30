@@ -12,8 +12,30 @@ Evaluate results.
 Share insights with stakeholders in a blog post.
 
 
+# Data Source
+I used data from Kaggle’s Airbnb Seattle and Boston data.
+
+Seattle Since 2008, guests and hosts have used Airbnb to travel in a more unique, personalized way. As part of the Airbnb Inside initiative, this dataset describes the listing activity of homestays in Seattle, WA.
+Boston Since 2008, guests and hosts have used Airbnb to travel in a more unique, personalized way. As part of the Airbnb Inside initiative, this dataset describes the listing activity of homestays in Boston, MA.
+
+# Acknowledgement
+This dataset is part of Airbnb Inside, and the original source can be found here.
+
+
+# License: MIT License
+
+
 # Pre-condition
 Download Seattle Airbnb and Boston Airbnb data from Kaggle system.
+[Seattle](https://www.kaggle.com/datasets/airbnb/seattle/data)
+[Boston](https://www.kaggle.com/datasets/airbnb/boston)
+
+# Used library
+1. Numpy == 1.26.4
+2. Pandas == 2.2.2
+3. Matplotlib == 3.9.0
+4. Seaborn == 0.13.2
+5. Scikit-learn == 1.5.0
 
 
 ## Step 1 : Exploration Data Analysis
@@ -27,12 +49,10 @@ Concat Seattle and Boston data for further analysis
 
 
 ## Step 3 : Come up with three questions that interested in answering.
-1. Complete to analyze property_type for seattle and boston
+1. Analyze property_type for seattle and boston
 2. Analyze probalibity distribution of Price
-3. Analyze correlation between numerical columuns and price. And customed AI model to predict price.
-
-# Github blog
-https://theshy521.github.io/
-[Blog](https://theshy521.github.io/)
+3. Analyze correlation between numerical columuns and price. And train customed AI model to predict price.
 
 
+# Github Blog
+[Blog](https://theshy521.github.io)
